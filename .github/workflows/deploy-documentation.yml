@@ -1,20 +1,18 @@
-name: Build and Deploy to S3
+name: Build and Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - test-s3-web-page
-    
-    paths:
-      - 'vets-design-system-documentation/**'
+      - s3-to-storybook
+
 permissions:
   contents: write
   pages: write
   id-token: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -51,31 +49,26 @@ jobs:
           cd vets-design-system-documentation
           ls -la
           yarn run build
-          bundle exec jekyll build --destination ./_site # use --destination to specify output directory
+          bundle exec jekyll build --destination ./_site 
 
-      - name: Troubleshoot
+      - name: Debug GitHub Pages Deployment
         run: |
-          cd vets-design-system-documentation
-          ls -la ./_site
-      
-      # - name: Configure AWS credentials (OIDC)
-      #   uses: aws-actions/configure-aws-credentials@v4
-      #   with:
-      #     role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID}}:role/tf1thumbnail
-      #     aws-region: us-east-1
+          echo "Listing deployment files..."
+          ls -la vets-design-system-documentation/_site
 
-
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-gov-west-1
+          path: './vets-design-system-documentation/_site'
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
-      - name: Verify AWS authentication
-        run: aws sts get-caller-identity
-
-      - name: Deploy to S3
-        run: |
-          aws s3 sync ./vets-design-system-documentation/_site s3://web-document-test
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
