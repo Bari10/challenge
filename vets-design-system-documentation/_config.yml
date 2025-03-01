@@ -57,22 +57,22 @@ sass:
 collections:
   about:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title.html # Added .html
   content-style-guide:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title.html # Added .html
   foundation:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title.html # Added .html
   components:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title.html # Added .html
   patterns:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title.html # Added .html
   templates:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title.html # Added .html
 
 include:
   - vendor/javascripts/component-library/dist/esm/_commonjsHelpers-8b28c6fa.js
