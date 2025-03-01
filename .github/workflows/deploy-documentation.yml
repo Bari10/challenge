@@ -6,8 +6,6 @@ on:
     branches:
       - s3-to-storybook
     
-    paths:
-      - 'vets-design-system-documentation/**'
 permissions:
   contents: write
   pages: write
@@ -70,7 +68,7 @@ jobs:
         run: |
           echo "Listing deployment files ..."
           ls -la vets-design-system-documentation/_site
-          
+
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
