@@ -1,0 +1,30 @@
+maturity:
+  - name: guidance
+    score: true
+  - name: research
+    score: false
+  - name: stability
+    score: false
+    notes: "This component has mobile accessibility issues and should be used sparingly."
+  - name: adoption
+    score: true
+code-assets:
+  - name: variations 
+    score: false
+  - name: responsive
+    score: false
+  - name: interactive-states
+    score: false
+  - name: tokens
+    score: "n/a"
+  - name: internationalization
+    score: "n/a"
+visual-assets:
+  - name: variations
+    score: false
+  - name: responsive
+    score: false
+  - name: interactive-states
+    score: false
+  - name: tokens
+    score: "n/a"

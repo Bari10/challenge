@@ -1,0 +1,81 @@
+name: Build and Deploy to S3
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - test-s3-web-page
+    
+    paths:
+      - 'vets-design-system-documentation/**'
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18.19.0
+
+      - name: Install Yarn
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install 
+
+      - name: Install Ruby and Gems
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.0.2
+          bundler-cache: true
+      
+      - name: Install Bundler
+        run: gem install bundler
+        
+      - name: Install Yarn Dependencies
+        run: |
+          cd vets-design-system-documentation
+          bundle install
+          yarn install
+
+      - name: Build Jekyll Site
+        run: |
+          cd vets-design-system-documentation
+          ls -la
+          yarn run build
+          bundle exec jekyll build --destination ./_site # use --destination to specify output directory
+
+      - name: Troubleshoot
+        run: |
+          cd vets-design-system-documentation
+          ls -la ./_site
+      
+      # - name: Configure AWS credentials (OIDC)
+      #   uses: aws-actions/configure-aws-credentials@v4
+      #   with:
+      #     role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID}}:role/tf1thumbnail
+      #     aws-region: us-east-1
+
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-gov-west-1
+
+
+      - name: Verify AWS authentication
+        run: aws sts get-caller-identity
+
+      - name: Deploy to S3
+        run: |
+          aws s3 sync ./vets-design-system-documentation/_site s3://web-document-test

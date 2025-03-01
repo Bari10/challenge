@@ -1,0 +1,46 @@
+{%- comment %}
+  Create a cache-busting string based on build timestamp.
+{% endcomment -%}
+{%- assign cacheBust = site.time | date:'?v=%s' -%}
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }} {% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  {% if site.analytics == "production" %}
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T2ZTDXZ');</script>
+  <!-- End Google Tag Manager -->
+  {% endif %}
+
+  {% if page.draft %}
+  <meta name=”robots” content=”noindex, nofollow”>
+  {% endif %}
+
+  <!-- Web component setup -->
+  <link rel="stylesheet" type="text/css" href="{{ '/assets/stylesheets/component-library.css' | append: cacheBust }}" />
+  <script type="module">
+    import { defineCustomElements } from "/vendor/javascripts/component-library/loader/index.es2017.js";
+    defineCustomElements();
+</script>
+
+  <!-- Icons -->
+  <link href="{{ site.baseurl }}/assets/img/favicons/apple-touch-icon.png" rel="apple-touch-icon-precomposed">
+  <link href="{{ site.baseurl }}/assets/img/favicons/apple-touch-icon-72x72.png" rel="apple-touch-icon-precomposed" sizes="72x72">
+  <link href="{{ site.baseurl }}/assets/img/favicons/apple-touch-icon-114x114.png" rel="apple-touch-icon-precomposed" sizes="114x114">
+  <link href="{{ site.baseurl }}/assets/img/favicons/apple-touch-icon-152x152.png" rel="apple-touch-icon-precomposed" sizes="144x144">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/favicons/favicon.ico">
+
+  <link rel="stylesheet" href="{{ '/formation.min.css' | prepend: site.baseurl | append: cacheBust }}">
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/application.css' | prepend: site.baseurl | append: cacheBust }}">
+  <link rel="stylesheet" href="{{ '/assets/stylesheets/utilities.css' | prepend: site.baseurl | append: cacheBust }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script src="{{ '/assets/javascripts/polyfills/array.from.js' | prepend: site.baseurl | append: cacheBust }}"></script>
+
+</head>

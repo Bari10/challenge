@@ -1,0 +1,73 @@
+#
+# Code checks – linting & unit tests
+#
+
+name: "Code Checks"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+defaults:
+  run:
+    working-directory: component-library
+
+jobs:
+  changes:
+    runs-on: ubuntu-latest
+    outputs:
+      component_library: ${{ steps.filter.outputs.component_library }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for changes in component-library/
+        id: filter
+        uses: dorny/paths-filter@v3
+        with:
+          filters: |
+            component_library:
+              - "component-library/**"
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    needs: changes
+    if: needs.changes.outputs.component_library == 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache-dependency-path: component-library
+          node-version-file: "component-library/.nvmrc"
+          cache: "yarn"
+      - name: Install dependencies
+        run: |
+          yarn install
+          yarn workspaces foreach --all install
+      - name: Lint
+        run: yarn lint
+
+  unit-tests:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    needs: changes
+    if: needs.changes.outputs.component_library == 'true'
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enable Corepack
+        run: corepack enable
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          cache-dependency-path: component-library
+          node-version-file: "component-library/.nvmrc"
+          cache: "yarn"
+      - name: Install dependencies
+        run: |
+          yarn install
+          yarn workspaces foreach --all install
+      - name: Test
+        run: yarn test

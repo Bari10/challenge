@@ -1,0 +1,128 @@
+---
+font-matter: yay
+---
+
+// Files that allow us to use Formation’s Sass functions, variables, and mixins
+@import '../../../node_modules/@department-of-veterans-affairs/formation/sass/base/b-variables';
+@import '../../../node_modules/@department-of-veterans-affairs/formation/sass/base/_b-breakpoints';
+@import '../../../node_modules/@department-of-veterans-affairs/formation/sass/base/b-functions';
+@import '../../../node_modules/@department-of-veterans-affairs/formation/sass/base/_b-mixins';
+
+// Other Formation CSS we need for this site.
+@import '../../../node_modules/@department-of-veterans-affairs/formation/sass/site/_m-crisis-line';
+
+// Override Formation color variables 
+@import '../../../node_modules/@department-of-veterans-affairs/css-library/dist/tokens/scss/variables.scss';
+
+// Site CSS
+@import '_settings/variables';
+@import '_helpers/clip';
+@import '_helpers/media';
+@import '_base/base';
+@import '_layout/site-content';
+@import '_layout/content-wrappers';
+@import '_components/anchors';
+@import '_components/badge';
+@import '_components/code-snippets';
+@import '_components/component-checklist';
+@import '_components/do-dont';
+@import '_components/example';
+@import '_components/fields';
+@import '_components/footer';
+@import '_components/header';
+@import '_components/hero';
+@import '_components/in-this-section';
+@import '_components/iframe-preview';
+@import '_components/link';
+@import '_components/mobile-nav';
+@import '_components/on-this-page';
+@import '_components/resource-links';
+@import '_components/contributors';
+@import '_components/search-results';
+@import '_components/showcase';
+@import '_components/sidenav';
+
+
+.usa-skipnav {
+  background: transparent;
+  color: $color-base;
+  left: 0;
+  padding: 0.625rem 0.9375rem;
+  position: absolute;
+  top: -2.625rem;
+  transition: all 0.2s ease-in-out;
+  z-index: 100;
+
+  &:focus {
+    background: $color-white;
+    left: 0;
+    outline: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.fa, .fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands";
+}
+
+
+.site-grid-example {
+  padding:12px;
+  background: #e1f3f8;
+  border: 1px solid #07648d;
+}
+
+.site-section-highlight {
+  padding-top: units(1);
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: units(10);
+    display: block;
+    top: units(3);
+    height: 5px;
+    background-color: $color-secondary;
+  }
+
+  a {
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: $color-link-default;
+  }
+
+  a:hover,
+  a:focus {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+}
+
+.site-resources {
+  background: #16171F;
+}
+
+/*
+For the time being, we're manually overriding these two classes that get imported from Formation
+because they get dynamically generated in color-palette-example.html. This is necessary because 
+Formation still relies on the older --primary-darker/darkest naming convention for the sake of 
+backwards compatibility. When Formation has been fully deprecated and we are on new utility classes, 
+these can be removed along with an update to how classes are generated in color-palette-example.html. 
+*/
+.vads-u-background-color--primary-dark {
+  background-color: $vads-color-primary-dark !important;
+}
+
+.vads-u-background-color--primary-darker {
+  background-color: $vads-color-primary-darker !important;
+}
