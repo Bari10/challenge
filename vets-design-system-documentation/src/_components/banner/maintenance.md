@@ -1,7 +1,7 @@
 ---
 layout: component
 title: Banner - Maintenance
-permalink: /components/banner/maintenance/index.html
+permalink: /components/banner/maintenance/
 has-parent: /components/banner/
 github-title: va-banner-maintenance
 figma-link: https://www.figma.com/file/JDFpGLIojfuQwANXScQjqe/VADS-Component-Example-Library?type=design&node-id=1173%3A4614&mode=design&t=vNilCSI60pQBiKkM-1

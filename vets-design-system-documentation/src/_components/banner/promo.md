@@ -1,7 +1,7 @@
 ---
 layout: component
 title: Banner - Promo
-permalink: /components/banner/promo/index.html
+permalink: /components/banner/promo/
 has-parent: /components/banner/
 figma-link: https://www.figma.com/file/JDFpGLIojfuQwANXScQjqe/VADS-Component-Example-Library?type=design&node-id=1173%3A5043&mode=design&t=vNilCSI60pQBiKkM-1
 status: use-deployed
