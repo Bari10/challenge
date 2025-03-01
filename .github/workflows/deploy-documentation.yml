@@ -83,7 +83,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync ./vets-design-system-documentation/_site s3://web-document-test
+          aws s3 sync ./vets-design-system-documentation/_site s3://tf1-thumbnail.documentation 
 
 
 
