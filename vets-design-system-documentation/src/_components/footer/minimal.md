@@ -1,7 +1,7 @@
 ---
 layout: component
 title: Footer - Minimal
-permalink: /components/footer/footer-minimal
+permalink: /components/footer/footer-minimal/
 has-parent: /components/footer/
 contributors: Ben Brasso (Agile 6), Ya-ching Tsao (CivicActions), Zach Park (Agile 6), Kristen McConnell (Ad Hoc)
 intro-text: The minimal footer can be used when navigating away would prevent the user from easily accomplishing their main task.
