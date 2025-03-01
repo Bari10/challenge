@@ -1,11 +1,13 @@
-name: Build and Deploy Jekyll to GitHub Pages
+name: Build and Deploy to S3
 
 on:
   workflow_dispatch:
   push:
     branches:
       - s3-to-storybook
-
+    
+    paths:
+      - 'vets-design-system-documentation/**'
 permissions:
   contents: write
   pages: write
@@ -24,43 +26,75 @@ jobs:
         with:
           node-version: 18.19.0
 
-      - name: Use Correct Yarn Version
-        run: |
-          corepack enable
-          corepack prepare yarn@1.22.19 --activate
-          yarn --version
-          
+      - name: Install Yarn
+        uses: borales/actions-yarn@v4
+        with:
+          cmd: install 
+
       - name: Install Ruby and Gems
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0.2
           bundler-cache: true
-
+      
       - name: Install Bundler
         run: gem install bundler
-
-      - name: Install Yarn and Ruby Dependencies
+        
+      - name: Install Yarn Dependencies
         run: |
           cd vets-design-system-documentation
-          bundle install
           yarn install
+          bundle install
 
       - name: Build Jekyll Site
         run: |
           cd vets-design-system-documentation
+          ls -la
           yarn run build
-          bundle exec jekyll build --destination ./_site 
+          bundle exec jekyll build --destination ./_site # use --destination to specify output directory
 
-      - name: Debug Deployment Files
+      - name: Troubleshoot
         run: |
-          echo "Checking output directory..."
+          cd vets-design-system-documentation
+          ls -la ./_site
+      
+      # - name: Configure AWS credentials (OIDC)
+      #   uses: aws-actions/configure-aws-credentials@v4
+      #   with:
+      #     role-to-assume: arn:aws:iam::${{ secrets.AWS_ACCOUNT_ID}}:role/tf1thumbnail
+      #     aws-region: us-east-1
+
+
+      
+      - name: Debug ghpages Deployment
+        run: |
+          echo "Listing deployment files ..."
           ls -la vets-design-system-documentation/_site
+          
 
-      - name: Upload GitHub Pages Artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
         with:
-          path: './vets-design-system-documentation/_site'
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-gov-west-1
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+
+      - name: Verify AWS authentication
+        run: aws sts get-caller-identity
+
+      - name: Deploy to S3
+        run: |
+          aws s3 sync ./vets-design-system-documentation/_site s3://web-document-test
+
+
+
+
+      # - name: Upload artifact
+      #   uses: actions/upload-pages-artifact@v3
+      #   with:
+      #     path: './vets-design-system-documentation/_site'
+
+      # - name: Deploy to GitHub Pages
+      #   id: deployment
+      #   uses: actions/deploy-pages@v4
