@@ -1,7 +1,7 @@
 ---
 layout: component
 title: Banner
-permalink: /components/banner//index.html
+permalink: /components/banner/index.html
 intro-text: "Banners are for announcements that typically prepare a Veteran to visit a VA facility or to help them maintain their health. Banners appear at the top of the page, below the header and navigation components."
 status: use-deployed
 web-component: va-banner
