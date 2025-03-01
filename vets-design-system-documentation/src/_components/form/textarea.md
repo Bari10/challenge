@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/textarea
+permalink: /components/form/textarea/
 has-parent: /components/form/
 title: Textarea
 intro-text: "Textarea allows people to enter any type of text."

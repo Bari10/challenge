@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: A single response
-permalink: /patterns/ask-users-for/a-single-response
+permalink: /patterns/ask-users-for/a-single-response/
 aka: One Thing per Page
 contributors: Jeana Clark (Ad Hoc), Jamie Klenetsky Fay (Coforma)
 sub-section: ask-users-for

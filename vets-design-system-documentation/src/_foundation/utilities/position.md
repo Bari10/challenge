@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/position
+permalink: /foundation/utilities/position/
 has-parent: /foundation/utilities/
 title: Position
 ---

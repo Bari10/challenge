@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/checkbox
+permalink: /components/form/checkbox/
 has-parent: /components/form/
 title: Checkbox
 research-title: Form controls

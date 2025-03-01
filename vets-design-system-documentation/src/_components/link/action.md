@@ -1,7 +1,7 @@
 ---
 layout: component
 title: Link - Action
-permalink: /components/link/action
+permalink: /components/link/action/
 has-parent: /components/link/
 github-title: va-action-link
 intro-text: "Action links guide users to a new page to take an action or to start an online tool or digital service."

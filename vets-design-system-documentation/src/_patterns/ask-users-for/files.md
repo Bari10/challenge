@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Files
-permalink: /patterns/ask-users-for/files
+permalink: /patterns/ask-users-for/files/
 redirect_from:
   - /patterns/forms/file-upload
 aka: File upload

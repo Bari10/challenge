@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/email-address
+permalink: /patterns/ask-users-for/email-address/
 sub-section: ask-users-for
 title: Email address
 intro-text: "Follow this pattern to ask a user for an email address."

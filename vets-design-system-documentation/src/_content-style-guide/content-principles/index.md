@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/content-principles
+permalink: /content-style-guide/content-principles/
 title: Content principles
 intro-text: "By consistently practicing language in an intentional way, we can provide content that supports Veterans' needs and improve their experience on our site."
 ---

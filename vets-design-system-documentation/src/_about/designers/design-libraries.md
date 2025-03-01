@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Design libraries
-permalink: /about/designers/design-libraries
+permalink: /about/designers/design-libraries/
 has-parent: /about/designers/
 intro-text: The Design System Team provides several Figma libraries for use by teams.
 anchors:

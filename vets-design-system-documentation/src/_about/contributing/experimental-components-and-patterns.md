@@ -1,6 +1,6 @@
 ---
 layout: documentation
-permalink: /about/contributing-to-the-design-system/experimental-components-and-patterns
+permalink: /about/contributing-to-the-design-system/experimental-components-and-patterns/
 has-parent: /about/contributing-to-the-design-system/
 title: Experimental components and patterns
 intro-text: Experiments allow the VA to grow the design system and the experimental process allows us to make that emerging work visible across the teams working on VA.gov.

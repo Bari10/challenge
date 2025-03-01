@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/button/button-group
+permalink: /components/button/button-group/
 has-parent: /components/button/
 title: Button group
 aka: Button pair

@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/plain-language/define-complex-terms
+permalink: /content-style-guide/plain-language/define-complex-terms/
 has-parent: /content-style-guide/plain-language/
 title: Define complex terms
 intro-text: "Define complex terms if you must use them."

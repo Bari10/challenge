@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/signed-out-vs-signed-in
+permalink: /templates/signed-out-vs-signed-in/
 title: Signed out vs. signed in
 status: use-deployed
 intro-text: "If a user has not signed in to VA.gov, we know very little information about the user. When the user signs in and verifies their identity, we know who the user is. In either case, we display the most relevant content, features, and calls to action."

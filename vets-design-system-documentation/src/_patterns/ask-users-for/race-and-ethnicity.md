@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/race-and-ethnicity
+permalink: /patterns/ask-users-for/race-and-ethnicity/
 redirect_from:
   - /patterns/ask-users-for/race-ethnicity-or-origin
 sub-section: ask-users-for

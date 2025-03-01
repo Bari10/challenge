@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/plain-language/use-short-sentences
+permalink: /content-style-guide/plain-language/use-short-sentences/
 has-parent: /content-style-guide/plain-language/
 title: Use short sentences
 intro-text: Try to limit each sentence to one subject and verb. And try to limit each sentence to no more than 25 words. 

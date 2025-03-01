@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/display
+permalink: /foundation/utilities/display/
 has-parent: /foundation/utilities/
 title: Display
 ---

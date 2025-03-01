@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/forms/form-step
+permalink: /templates/forms/form-step/
 has-parent: /templates/forms/
 title: Form step
 status: use-deployed

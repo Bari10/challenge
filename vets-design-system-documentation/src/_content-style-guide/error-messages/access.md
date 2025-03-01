@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/error-messages/access
+permalink: /content-style-guide/error-messages/access/
 has-parent: /content-style-guide/error-messages/
 title: Access messages
 intro-text: Appears when the user tries to access an item that’s not available to them. It may be because the record has been deleted, the user doesn’t have access, etc.

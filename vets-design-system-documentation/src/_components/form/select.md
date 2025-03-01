@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/select
+permalink: /components/form/select/
 has-parent: /components/form/
 title: Select
 intro-text: "A select component allows users to choose one option from a menu."

@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Update prefilled information
-permalink: /patterns/help-users-to/update-prefilled-information
+permalink: /patterns/help-users-to/update-prefilled-information/
 sub-section: help-users-to
 intro-text: Follow this pattern to help users update prefilled information in an application.
 research-title: Help users know how their info is updated

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/font-size
+permalink: /foundation/utilities/font-size/
 has-parent: /foundation/utilities/
 title: Font size
 ---

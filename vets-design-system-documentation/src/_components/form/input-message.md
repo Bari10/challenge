@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/input-message
+permalink: /components/form/input-message/
 has-parent: /components/form/
 title: Input message
 github-title: va-input-message

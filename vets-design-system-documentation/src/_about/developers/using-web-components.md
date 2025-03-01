@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Using Web Components
-permalink: /about/developers/using-web-components
+permalink: /about/developers/using-web-components/
 has-parent: /about/developers/
 intro-text: Web Components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps.
 anchors:

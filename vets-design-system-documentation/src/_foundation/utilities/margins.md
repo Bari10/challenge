@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/margins
+permalink: /foundation/utilities/margins/
 has-parent: /foundation/utilities/
 title: Margins
 anchors:

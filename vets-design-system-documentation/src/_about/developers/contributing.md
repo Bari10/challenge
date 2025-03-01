@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Contributing
-permalink: /about/developers/contributing
+permalink: /about/developers/contributing/
 has-parent: /about/developers/
 intro-text: How to contribute code to the Design System.
 anchors:

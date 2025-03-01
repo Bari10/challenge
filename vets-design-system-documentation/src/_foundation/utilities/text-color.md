@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/text-color
+permalink: /foundation/utilities/text-color/
 has-parent: /foundation/utilities/
 title: Text Color
 ---

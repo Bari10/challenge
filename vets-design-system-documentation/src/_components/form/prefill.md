@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/prefill
+permalink: /components/form/prefill/
 has-parent: /components/form/
 title: Prefill
 intro-text: "Informs the user that information from their profile has been used to prefill form fields."

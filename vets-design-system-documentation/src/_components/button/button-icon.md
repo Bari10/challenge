@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/button/button-icon
+permalink: /components/button/button-icon/
 redirect_from:
   - /components/button-icon
 has-parent: /components/button/

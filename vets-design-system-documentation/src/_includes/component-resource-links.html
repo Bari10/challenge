@@ -24,9 +24,12 @@
     </dt>
     {% if github_component_name %}
     <dd role="definition" class="site-component-resources-links__definition">
-      <a class="site-component-resources-links__link" href="https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues?q=is%3Aissue+is%3Aopen+label%3A{{github_component_name}}" target="_blank" rel="noopener noreferrer" title="View issues related to this component (internal only)">
+      <a class="site-component-resources-links__link" href="https://github.com/oddballteam/tf1-thumbnail/issues" target="_blank" rel="noopener noreferrer" title="View issues related to this component (internal only)">
         <img aria-hidden="true" src="{{ site.baseurl }}/assets/img/github-logo.svg" alt="Github logo" role="img" class="site-component-resources-links__img">Open Issues
       </a>
+      <!-- <a class="site-component-resources-links__link" href="https://github.com/department-of-veterans-affairs/vets-design-system-documentation/issues?q=is%3Aissue+is%3Aopen+label%3A{{github_component_name}}" target="_blank" rel="noopener noreferrer" title="View issues related to this component (internal only)">
+        <img aria-hidden="true" src="{{ site.baseurl }}/assets/img/github-logo.svg" alt="Github logo" role="img" class="site-component-resources-links__img">Open Issues
+      </a> -->
     </dd>
     {% endif %}
     {% if research_component_name %}
@@ -36,9 +39,12 @@
         <i aria-hidden="true" class="fas fa-book site-component-resources-links__icon" role="img"></i>Research
       </a>
       {% else %}
-      <a class="site-component-resources-links__link" href="https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues?q=is%3Aissue+label%3A%22DSC%3A+{{research_component_name}}%22" target="_blank" rel="noopener noreferrer" title="View research related to this component (internal only)">
+      <a class="site-component-resources-links__link" href="https://github.com/oddballteam/tf1-thumbnail/tree/main/research" target="_blank" rel="noopener noreferrer" title="View research related to this component (internal only)">
         <i aria-hidden="true" class="fas fa-book site-component-resources-links__icon" role="img"></i>Research
       </a>
+      <!-- <a class="site-component-resources-links__link" href="https://github.com/department-of-veterans-affairs/va.gov-research-repository/issues?q=is%3Aissue+label%3A%22DSC%3A+{{research_component_name}}%22" target="_blank" rel="noopener noreferrer" title="View research related to this component (internal only)">
+        <i aria-hidden="true" class="fas fa-book site-component-resources-links__icon" role="img"></i>Research
+      </a> -->
       {% endif %}
     </dd>
     {% endif %}

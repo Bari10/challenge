@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/padding
+permalink: /foundation/utilities/padding/
 has-parent: /foundation/utilities/
 title: Padding
 anchors:

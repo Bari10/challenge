@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Focus management
-permalink: /about/accessibility/focus-management
+permalink: /about/accessibility/focus-management/
 has-parent: /about/accessibility/
 intro-text: Focus is the element on a page that is ready for you to interact with. It's important for making websites accessible, especially for people who use keyboards or other assistive technology to use the site.
 anchors:

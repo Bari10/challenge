@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/modal/crisis-line-modal
+permalink: /components/modal/crisis-line-modal/
 has-parent: /components/modal/
 title: Crisis Line Modal
 research-link: Modals

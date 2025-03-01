@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Know when their information is prefilled
-permalink: /patterns/help-users-to/know-when-their-information-is-prefilled
+permalink: /patterns/help-users-to/know-when-their-information-is-prefilled/
 sub-section: help-users-to
 intro-text: Follow this pattern to help users know when their information will be prefilled for them in an application.
 figma-link: https://www.figma.com/design/2j01RTqCSJRy4lX3eUOiod/AE-Design-Patterns---Prefill?node-id=1430-24359&t=AVctDQNNetYewkto-1

@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/summary-box
+permalink: /components/summary-box/
 redirect_from:
   - /components/featured-content
 title: "Summary box"

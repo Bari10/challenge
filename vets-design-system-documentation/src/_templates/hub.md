@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/hub
+permalink: /templates/hub/
 title: Hub
 status: use-deployed
 intro-text: "Hub pages serve as a landing page for particular benefits."

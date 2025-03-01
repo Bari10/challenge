@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/error-messages/system
+permalink: /content-style-guide/error-messages/system/
 has-parent: /content-style-guide/error-messages/
 title: System messages
 intro-text: Alerts the user of important system-related issues or status. It’s initiated by the system and it’s not a result of the user’s actions.

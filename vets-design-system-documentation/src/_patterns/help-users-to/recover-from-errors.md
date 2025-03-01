@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Recover from errors
-permalink: /patterns/help-users-to/recover-from-errors
+permalink: /patterns/help-users-to/recover-from-errors/
 redirect_from:
   - /patterns/messaging-error-messages
 aka: Error messages

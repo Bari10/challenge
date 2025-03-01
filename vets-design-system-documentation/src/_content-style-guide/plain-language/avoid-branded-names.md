@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/plain-language/avoid-branded-names
+permalink: /content-style-guide/plain-language/avoid-branded-names/
 has-parent: /content-style-guide/plain-language/
 title: Avoid branded names
 intro-text: "Avoid or minimize references to branded program names. Describe the benefit instead." 

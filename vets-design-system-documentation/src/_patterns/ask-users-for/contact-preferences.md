@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/contact-preferences
+permalink: /patterns/ask-users-for/contact-preferences/
 sub-section: ask-users-for
 title: Contact preferences
 intro-text: Follow this pattern when you want to ask a user how they’d like to be contacted. 

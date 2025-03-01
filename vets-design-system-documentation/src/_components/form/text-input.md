@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/text-input
+permalink: /components/form/text-input/
 has-parent: /components/form/
 title: Text input
 intro-text: "Text input allows people to enter any type of text unless otherwise restricted."

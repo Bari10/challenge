@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/text-align
+permalink: /foundation/utilities/text-align/
 has-parent: /foundation/utilities/
 title: Text align
 ---

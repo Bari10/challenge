@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Check eligibility
-permalink: /patterns/help-users-to/check-eligibility
+permalink: /patterns/help-users-to/check-eligibility/
 sub-section: help-users-to
 intro-text: "Follow this pattern to help users to check their eligibility for a benefit or service."
 research-title: help-users-to-check-eligibility

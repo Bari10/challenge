@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Check answers
-permalink: /patterns/help-users-to/check-answers
+permalink: /patterns/help-users-to/check-answers/
 redirect_from:
   - /patterns/forms/review
 sub-section: help-users-to

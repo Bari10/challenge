@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Check personal information
-permalink: /patterns/help-users-to/check-personal-information
+permalink: /patterns/help-users-to/check-personal-information/
 redirect_from:
   - /patterns/authenticated-info-list
 aka: Authenticated info list

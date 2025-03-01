@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/memorable-date
+permalink: /components/form/memorable-date/
 has-parent: /components/form/
 title: Memorable date
 research-title: Memorable Date

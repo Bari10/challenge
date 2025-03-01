@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/statement-of-truth
+permalink: /components/form/statement-of-truth/
 has-parent: /components/form/
 title: Statement of truth
 contributor: Jeana Clark, Nick Sprinkle

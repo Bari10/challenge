@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Know how their information is updated
-permalink: /patterns/help-users-to/know-how-their-information-is-updated
+permalink: /patterns/help-users-to/know-how-their-information-is-updated/
 sub-section: help-users-to
 intro-text: Follow this pattern to help users know how and when their personal information will be updated in their profile when the user is updating information in an application.
 research-title: Help users know how their info is updated

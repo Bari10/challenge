@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Implementing design work
-permalink: /about/developers/implementing-design-work
+permalink: /about/developers/implementing-design-work/
 has-parent: /about/developers/
 intro-text: When a designer hands off work, it is vital to work through potential implications that design may have on the Design System.
 anchors:

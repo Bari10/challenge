@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/label
+permalink: /components/form/label/
 has-parent: /components/form/
 title: Label
 intro-text: Labels associate a descriptive title with each form input used to collect information from the user.

@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/housing-status
+permalink: /patterns/ask-users-for/housing-status/
 sub-section: ask-users-for
 title: Housing status
 intro-text: Provides a way to ask Veterans about their current housing situation that allows them to answer questions accurately.

@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/error-messages/feedback
+permalink: /content-style-guide/error-messages/feedback/
 has-parent: /content-style-guide/error-messages/
 title: Feedback messages
 intro-text: The application’s response when the user is interacting with it. The majority of create, read, update, delete (CRUD) actions will result in feedback messaging.

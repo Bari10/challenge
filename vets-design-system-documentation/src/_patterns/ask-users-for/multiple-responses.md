@@ -1,8 +1,7 @@
 ---
 layout: pattern
 title: Multiple responses
-permalink: /patterns/ask-users-for/multiple-responses
-redirect_from:
+permalink: /patterns/ask-users-for/multiple-responses/
   - /patterns/forms/list-and-loop
 aka: List & Loop
 contributors: Jeana Clark (Ad Hoc), Robert Hasselle (Oddball), Robin Garrison (Ad Hoc)

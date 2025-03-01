@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/layout/page-layouts
+permalink: /foundation/layout/page-layouts/
 has-parent: /foundation/layout/
 title: Page layouts
 anchors:

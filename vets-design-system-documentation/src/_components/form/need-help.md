@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/need-help
+permalink: /components/form/need-help/
 has-parent: /components/form/
 title: Need help?
 intro-text: A footer found on application pages that provides contact information for the VA.

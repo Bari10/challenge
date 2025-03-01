@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/date-input
+permalink: /components/form/date-input/
 has-parent: /components/form/
 title: Date input
 research-title: Form controls

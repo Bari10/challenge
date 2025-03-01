@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/plain-language/use-simple-words-and-terms
+permalink: /content-style-guide/plain-language/use-simple-words-and-terms/
 has-parent: /content-style-guide/plain-language/
 title: Use simple words and terms
 intro-text: "Use simple words and terms that are familiar to our primary audience: Veterans and their families."

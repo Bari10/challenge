@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/measure
+permalink: /foundation/utilities/measure/
 has-parent: /foundation/utilities/
 title: Measure
 ---

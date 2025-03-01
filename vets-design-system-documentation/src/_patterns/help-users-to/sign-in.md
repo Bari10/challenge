@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/help-users-to/sign-in
+permalink: /patterns/help-users-to/sign-in/
 sub-section: help-users-to
 title: Sign in
 intro-text: "Follow this pattern to help users sign in to access VA online services."

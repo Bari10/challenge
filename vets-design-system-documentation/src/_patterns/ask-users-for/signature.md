@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/signature
+permalink: /patterns/ask-users-for/signature/
 sub-section: ask-users-for
 title: Signature
 intro-text: "Use this pattern when you need a user to provide their signature as a statement of truth."

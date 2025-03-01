@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/forms/how-to-apply
+permalink: /templates/forms/how-to-apply/
 has-parent: /templates/forms/
 title: How to apply
 status: use-deployed

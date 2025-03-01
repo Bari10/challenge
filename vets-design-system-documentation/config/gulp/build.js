@@ -3,7 +3,7 @@ var gulp = require('gulp');
 
 gulp.task('build',
     gulp.series(
-      'json',
+      // 'json',
       'fonts',
       'images',
       'javascript',

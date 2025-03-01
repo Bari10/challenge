@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/plain-language/use-active-voice
+permalink: /content-style-guide/plain-language/use-active-voice/
 has-parent: /content-style-guide/plain-language/
 title: Use active voice
 intro-text: "Always connect an action to a subject. If there’s no subject taking responsibility for the verb, it’s likely passive voice."

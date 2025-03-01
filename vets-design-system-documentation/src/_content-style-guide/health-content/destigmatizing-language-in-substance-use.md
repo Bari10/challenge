@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/health-content/destigmatizing-language-in-substance-use
+permalink: /content-style-guide/health-content/destigmatizing-language-in-substance-use/
 has-parent: /content-style-guide/health-content/
 title: Destigmatizing language in substance use
 intro-text: "When writing about substance use and substance use disorder, the words we use matter. This is true both in content for Veterans as well as in our treatment plans, policies, and other documents."

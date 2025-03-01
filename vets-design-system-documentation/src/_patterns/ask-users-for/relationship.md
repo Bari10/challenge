@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/relationship
+permalink: /patterns/ask-users-for/relationship/
 sub-section: ask-users-for
 title: Relationship to Veteran
 intro-text: "Follow this pattern to ask a user for their relationship to the Veteran."

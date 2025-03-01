@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/social-security-number
+permalink: /patterns/ask-users-for/social-security-number/
 sub-section: ask-users-for
 title: Social security or VA file number
 intro-text: "Follow this pattern whenever you need to collect a person's Social Security or VA file number for an application."

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/text-decoration
+permalink: /foundation/utilities/text-decoration/
 has-parent: /foundation/utilities/
 title: Text decoration
 ---

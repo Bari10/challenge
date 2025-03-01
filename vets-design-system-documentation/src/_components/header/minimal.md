@@ -1,7 +1,7 @@
 ---
 layout: component
 title: Header - Minimal
-permalink: /components/header/header-minimal
+permalink: /components/header/header-minimal/
 has-parent: /components/header/
 contributors: Ben Brasso (Agile 6), Ya-ching Tsao (CivicActions), Zach Park (Agile 6), Kristen McConnell (Ad Hoc)
 intro-text: The minimal header can be used when navigating away would prevent the user from easily accomplishing their main task.

@@ -10,6 +10,7 @@
     <th><strong>Attribute</strong></th>
     <th><strong>Type</strong></th>
     <th><strong>Default</strong></th>
+    <th><strong>Platform</strong></th>
     <th><strong>Description</strong></th>
   </tr>
   <div>
@@ -19,6 +20,7 @@
       <th><code class="code vads-u-border--1px vads-u-border-color--gray-light">{{ prop.attr }}</code></th>
       <th>{% if prop.type %}<code class="code vads-u-border--1px vads-u-border-color--gray-light">{{ prop.type }}</code>{% endif %}</th>
       <th>{% if prop.default %}<code class="code vads-u-border--1px vads-u-border-color--gray-light">{{ prop.default }}</code>{% endif %}</th>
+      <th>{% if prop.platform %}<code class="code vads-u-border--1px vads-u-border-color--gray-light">{{ prop.platform }}</code>{% endif %}</th>
       <th>{{ prop.docs }}</th>
     </tr>
         {% endfor %}

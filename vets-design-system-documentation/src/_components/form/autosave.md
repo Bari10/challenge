@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/autosave
+permalink: /components/form/autosave/
 has-parent: /components/form/
 title: Autosave
 intro-text: "Informs the user that we will, and have, automatically saved their progress in a form flow."

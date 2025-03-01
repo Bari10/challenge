@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/file-input
+permalink: /components/form/file-input/
 has-parent: /components/form/
 title: File input
 intro-text: "File input allows users to attach files, one at a time, to be uploaded."

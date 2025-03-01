@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/addresses
+permalink: /patterns/ask-users-for/addresses/
 sub-section: ask-users-for
 title: Addresses
 intro-text: "Follow this pattern to ask a user for an address."

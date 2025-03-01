@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/phone-numbers
+permalink: /patterns/ask-users-for/phone-numbers/
 sub-section: ask-users-for
 title: Phone numbers
 intro-text: Follow this pattern when you want to ask for a phone number.

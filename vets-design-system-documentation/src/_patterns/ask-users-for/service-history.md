@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/service-history
+permalink: /patterns/ask-users-for/service-history/
 sub-section: ask-users-for
 title: Service history
 intro-text: "Follow this pattern to ask a user about their service/military history."

@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/plain-language/use-contractions
+permalink: /content-style-guide/plain-language/use-contractions/
 has-parent: /content-style-guide/plain-language/
 title: Use contractions
 intro-text: "Use contractions (like “don’t” instead of “do not”) to communicate with our audience in a conversational way." 

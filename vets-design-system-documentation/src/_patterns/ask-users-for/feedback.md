@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Feedback
-permalink: /patterns/ask-users-for/feedback
+permalink: /patterns/ask-users-for/feedback/
 redirect_from:
   - /patterns/feedback
 sub-section: ask-users-for

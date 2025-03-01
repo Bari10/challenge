@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/privacy-agreement
+permalink: /components/form/privacy-agreement/
 redirect_from:
   - /components/privacy-agreement
 has-parent: /components/form/

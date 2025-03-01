@@ -1,6 +1,6 @@
 ---
 layout: documentation
-permalink: /about/contributing-to-the-design-system/suggest-a-removal
+permalink: /about/contributing-to-the-design-system/suggest-a-removal/
 has-parent: /about/contributing-to-the-design-system/
 title: Suggest a removal
 intro-text: Follow the steps below to suggest a component or pattern be deprecated in the design system

@@ -2,7 +2,7 @@
 layout: pattern
 title: Pattern name
 draft: true
-permalink: /patterns/[ask|help]-users-to]/[pattern name]
+permalink: /patterns/[ask|help]-users-to]/[pattern name]/
 sub-section: [ask-users-to|help-users-to]
 intro-text: "This text provides the overall purpose and function of the pattern."
 research-title: Use this to match the label in the research repo. 

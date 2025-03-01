@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/names
+permalink: /patterns/ask-users-for/names/
 sub-section: ask-users-for
 title: Names
 intro-text: "Follow this pattern whenever you need to ask for a person's name for an application."

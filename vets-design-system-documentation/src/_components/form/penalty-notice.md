@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/penalty-notice
+permalink: /components/form/penalty-notice/
 has-parent: /components/form/
 title: Penalty notice
 intro-text: A required legal notice for all forms.

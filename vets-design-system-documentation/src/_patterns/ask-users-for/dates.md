@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/dates
+permalink: /patterns/ask-users-for/dates/
 sub-section: ask-users-for
 title: Dates
 intro-text: "Use this pattern to collect dates from a person."

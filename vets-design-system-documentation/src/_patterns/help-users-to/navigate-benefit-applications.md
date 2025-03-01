@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: Navigate benefit applications
-permalink: /patterns/help-users-to/navigate-benefit-applications
+permalink: /patterns/help-users-to/navigate-benefit-applications/
 redirect_from:
   - /patterns/benefit-applications
 aka: Benefit applications

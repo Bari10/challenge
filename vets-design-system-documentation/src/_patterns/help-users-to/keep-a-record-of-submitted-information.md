@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/help-users-to/keep-a-record-of-submitted-information
+permalink: /patterns/help-users-to/keep-a-record-of-submitted-information/
 sub-section: help-users-to
 title: Keep a record of submitted information
 intro-text: "This pattern provides the user with a printable record of their submission."

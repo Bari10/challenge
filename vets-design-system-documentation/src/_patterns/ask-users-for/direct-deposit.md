@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/ask-users-for/direct-deposit
+permalink: /patterns/ask-users-for/direct-deposit/
 sub-section: ask-users-for
 title: Direct deposit
 intro-text: "Follow this pattern to ask users for their banking information in order to enable direct deposit."

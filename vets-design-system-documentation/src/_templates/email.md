@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/email
+permalink: /templates/email/
 title: Email
 status: use-deployed
 intro-text: "The email template is used to communicate with Veterans through email."

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Redirects
-permalink: /components/url-standards/redirects
+permalink: /components/url-standards/redirects/
 has-parent: /components/url-standards/
 intro-text: A URL redirect forwards both visitors and search engines to a different URL than the one requested. Teams should implement a redirect or request a redirect whenever they change a URL or remove a page. 
 anchors:

@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/error-messages/engagement
+permalink: /content-style-guide/error-messages/engagement/
 has-parent: /content-style-guide/error-messages/
 title: Engagement messages
 intro-text: Nudges the user to enter or update data in the system. It can be initiated by either the system or another user.

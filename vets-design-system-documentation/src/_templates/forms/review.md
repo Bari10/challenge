@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/forms/review
+permalink: /templates/forms/review/
 has-parent: /templates/forms/
 title: Review
 status: use-deployed

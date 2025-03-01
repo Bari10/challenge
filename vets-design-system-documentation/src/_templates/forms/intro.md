@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/forms/introduction
+permalink: /templates/forms/introduction/
 has-parent: /templates/forms/
 title: Introduction
 status: use-deployed

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/font-style
+permalink: /foundation/utilities/font-style/
 has-parent: /foundation/utilities/
 title: Font style
 ---

@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/plain-language/use-pronouns
+permalink: /content-style-guide/plain-language/use-pronouns/
 has-parent: /content-style-guide/plain-language/
 title: Use pronouns
 intro-text: "Use pronouns to speak to our audience in a personable and conversational voice."  

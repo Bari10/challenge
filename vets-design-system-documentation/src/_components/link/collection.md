@@ -1,7 +1,7 @@
 ---
 layout: component
 title: Link - Collection
-permalink: /components/link/collection
+permalink: /components/link/collection/
 has-parent: /components/link/
 github-title: va-link-collection
 intro-text: "Collections of links that allow users to navigate to related content within and outside of the current content section."

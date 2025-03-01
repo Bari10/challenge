@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/combo-box
+permalink: /components/form/combo-box/
 has-parent: /components/form/
 title: Combo box
 intro-text: "A combo box helps users select an item from a large list of options."

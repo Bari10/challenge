@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/search-results
+permalink: /templates/search-results/
 title: Search results
 status: use-with-caution-candidate
 figma-link: https://www.figma.com/design/4A3O3mVx4xDAKfHE7fPF1U/VADS-Templates%2C-Patterns%2C-and-Forms?node-id=15688-5938&t=QgRvXLVytGwafCeR-1

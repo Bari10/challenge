@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Figma at VA
-permalink: /about/designers/figma-at-va
+permalink: /about/designers/figma-at-va/
 has-parent: /about/designers/
 intro-text: Design teams at VA use Figma to view, share, and collaborate on our work. 
 ---

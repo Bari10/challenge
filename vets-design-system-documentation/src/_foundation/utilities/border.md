@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/border
+permalink: /foundation/utilities/border/
 has-parent: /foundation/utilities/
 title: Border
 anchors:

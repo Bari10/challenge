@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /templates/forms/confirmation
+permalink: /templates/forms/confirmation/
 has-parent: /templates/forms/
 title: Confirmation
 status: use-deployed

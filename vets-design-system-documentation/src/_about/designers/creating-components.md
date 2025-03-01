@@ -1,7 +1,7 @@
 ---
 layout: documentation
 title: Creating components
-permalink: /about/designers/creating-components
+permalink: /about/designers/creating-components/
 has-parent: /about/designers/
 intro-text: A guide to creating components in Figma at VA. Following this guide ensures that any component you contribute will meet the quality standards set by the Design System.
 anchors:

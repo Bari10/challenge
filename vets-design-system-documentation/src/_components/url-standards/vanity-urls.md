@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vanity URLs
-permalink: /components/url-standards/vanity-urls
+permalink: /components/url-standards/vanity-urls/
 has-parent: /components/url-standards/
 anchors:
   - anchor: About vanity URLs

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /foundation/utilities/font-family
+permalink: /foundation/utilities/font-family/
 has-parent: /foundation/utilities/
 title: Font family
 ---

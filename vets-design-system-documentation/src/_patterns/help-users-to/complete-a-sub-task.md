@@ -1,6 +1,6 @@
 ---
 layout: pattern
-permalink: /patterns/help-users-to/complete-a-sub-task
+permalink: /patterns/help-users-to/complete-a-sub-task/
 redirect_from:
   - /patterns/forms/sub-task
 sub-section: help-users-to

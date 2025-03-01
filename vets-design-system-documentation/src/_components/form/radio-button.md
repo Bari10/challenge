@@ -1,6 +1,6 @@
 ---
 layout: component
-permalink: /components/form/radio-button
+permalink: /components/form/radio-button/
 has-parent: /components/form/
 title: Radio button
 research-title: Form controls

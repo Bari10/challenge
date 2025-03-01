@@ -1,7 +1,7 @@
 ---
 layout: pattern
 title: A mutually exclusive answer
-permalink: /patterns/ask-users-for/a-mutually-exclusive-answer
+permalink: /patterns/ask-users-for/a-mutually-exclusive-answer/
 redirect_from:
   - /patterns/forms/all-or-none-of-the-above
 aka: All or none of the above

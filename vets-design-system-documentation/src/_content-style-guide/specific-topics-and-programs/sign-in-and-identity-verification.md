@@ -1,6 +1,6 @@
 ---
 layout: content-style-guide
-permalink: /content-style-guide/specific-topics-and-programs/sign-in-and-identity-verification
+permalink: /content-style-guide/specific-topics-and-programs/sign-in-and-identity-verification/
 has-parent: /content-style-guide/specific-topics-and-programs/
 title: Sign in and identity verification
 intro-text: "The information on this page will help you use consistent language about signing in to VA and verifying identity across communication channels."

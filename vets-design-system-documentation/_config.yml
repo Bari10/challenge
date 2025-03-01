@@ -51,28 +51,28 @@ source: src
 sass:
   sass_dir: assets/stylesheets/
   style: compressed
-  implementation: sass-embedded
+implementation: sass-embedded
 
 # Collections
 collections:
   about:
     output: true
-    permalink: /:collection/:title.html # Added .html
+    permalink: /:collection/:title.html
   content-style-guide:
     output: true
-    permalink: /:collection/:title.html # Added .html
+    permalink: /:collection/:title.html
   foundation:
     output: true
-    permalink: /:collection/:title.html # Added .html
+    permalink: /:collection/:title.html
   components:
     output: true
-    permalink: /:collection/:title.html # Added .html
+    permalink: /:collection/:title.html
   patterns:
     output: true
-    permalink: /:collection/:title.html # Added .html
+    permalink: /:collection/:title.html
   templates:
     output: true
-    permalink: /:collection/:title.html # Added .html
+    permalink: /:collection/:title.html
 
 include:
   - vendor/javascripts/component-library/dist/esm/_commonjsHelpers-8b28c6fa.js
